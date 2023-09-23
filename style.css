@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500&display=swap');
+body{
+    line-height: 100;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold !important;
+}
+
+h4{
+    font-size: 35px !important;
+}
+
+a{
+    font-weight: bold !important;
+    color: #213555 !important;
+    transition: all 0.4s ease !important;
+}
+
+.navbar-toggler{
+    background-color: orangered !important;
+}
+.navbar-brand{
+    font-size: 25px !important;
+}
+.navbar-brand span{
+    color: orangered;
+}
+.nav-link:hover{
+    color: orangered !important;
+}
+/* hero section */
+.hero{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.btn-main{
+    background-color: orangered !important;
+    width: 150px;
+    color: #fff !important;
+    border: 2px solid orangered !important;
+}
+.btn-main:hover{
+    background-color: transparent !important;
+    width: 150px;
+    color: #fff !important;
+    border: 2px solid orangered !important;
+}
+.divider{
+    background-color: orangered;
+    height: 8px;
+    width: 100px;
+    margin: 10px auto;
+}
+.progress-bar{
+    background-color: orangered !important;
+}
+.img-fluid{
+    height: 70vh !important;
+    width: 700px;
+}
+.fa-solid, .fa-brands{
+    font-size: 35px !important;
+    color: orangered !important;
+}
+.card:hover{
+    box-shadow: rgb(0,0,0,0.30) 0px 4px 7px !important;
+   
+}
+.mycounter{
+    min-height: 50vh;
+    background: linear-gradient(rgba(0,0,50,0.9),rgba(0,0,50,0.9)),url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+.mycounter .card{
+    background-color: transparent;
+    color: #fff;
+}
+.gallery{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,50,0.9),rgba(0,0,50,0.9)),url(../images/hero.jpg);
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.item{
+    transition: 5s ease-in-out;
+}
+.btn-sub{
+    background-color: orangered !important;
+    color: #fff !important;
+    width: 150px !important;
+    font-size: 1.2rem !important;
+}
+input{
+    border: 1px solid black !important;
+    height: 50px !important;
+}
+textarea{
+    border: 1px solid black !important;
+    height: 50px !important;
+}
+.header1{
+    font: 4rem !important;
+    line-height: 1.4 !important;
+}
+
+
+.footer{
+    min-height: 15vh;
+    background: linear-gradient(rgba(0,0,50,0.9),rgba(0,0,50,0.9));
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
